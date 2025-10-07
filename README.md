@@ -1,70 +1,116 @@
-# lasi-portfolio
+<div align="center">
+  
+# portfolio
 
-⚡ Lightning-fast Bini.js app with file-based API routes.
+A cool project built with passion 🚀
 
-## 🚀 Development
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-f1e05a?style=for-the-badge&logo=javascript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-e34c26?style=for-the-badge&logo=html&logoColor=white)
 
+[![Stars](https://img.shields.io/github/stars/Binidu01/portfolio?style=for-the-badge&logo=github)](https://github.com/Binidu01/portfolio/stargazers)
+[![Forks](https://img.shields.io/github/forks/Binidu01/portfolio?style=for-the-badge&logo=github)](https://github.com/Binidu01/portfolio/network/members)
+[![Issues](https://img.shields.io/github/issues/Binidu01/portfolio?style=for-the-badge&logo=github)](https://github.com/Binidu01/portfolio/issues)
+[![License](https://img.shields.io/github/license/Binidu01/portfolio?style=for-the-badge)](https://github.com/Binidu01/portfolio/blob/main/LICENSE)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [🚀 Features](#-features)
+- [🛠️ Installation](#️-installation)
+- [💻 Usage](#-usage)
+- [🏗️ Built With](#️-built-with)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [📞 Contact](#-contact)
+- [🙏 Acknowledgments](#-acknowledgments)
+
+---
+
+## 🚀 Features
+
+- ✨ Modern and intuitive user interface
+- 🔥 High performance and scalability
+- 🛡️ Secure and reliable
+- 📱 Responsive design
+- 🌐 Cross-platform compatibility
+
+## 🛠️ Installation
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/Binidu01/portfolio.git
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-## 📦 Production 
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## 💻 Usage
 
 ```bash
-npm run build
-npm run start  # Opens vite preview (super fast!)
+# Basic usage example
+portfolio --help
 ```
 
-## 🌐 API Routes
+For more detailed usage instructions, please refer to our [documentation](https://github.com/Binidu01/portfolio).
 
-File-based API routes (like Next.js):
+## 🏗️ Built With
 
-```
-src/api/
-├── hello.js       → /api/hello
-├── users.js       → /api/users  
-├── database-example.js → /api/database-example
-└── posts/
-    ├── index.js   → /api/posts
-    └── [id].js    → /api/posts/123
-```
+- **TypeScript** - 57.5%
+- **JavaScript** - 28.0%
+- **CSS** - 13.9%
+- **HTML** - 0.6%
 
-## 🎨 Styling: Tailwind
+## 🤝 Contributing
 
-This project uses Tailwind CSS for styling.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch `git checkout -b feature/AmazingFeature`
+3. Commit your Changes `git commit -m Add some AmazingFeature`
+4. Push to the Branch `git push origin feature/AmazingFeature`
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+**Binidu01** - [@Binidu01](https://github.com/Binidu01)
+
+Project Link: [https://github.com/Binidu01/portfolio](https://github.com/Binidu01/portfolio)
 
 
 
-## 🗄️ Database Integration
+## 🙏 Acknowledgments
 
-**Ready for Firebase, MongoDB, or any database!**
+- Thanks to all contributors who have helped this project grow
+- Special thanks to the open source community
+- Built with ❤️ and lots of ☕
 
-When you need real database operations:
+---
 
-1. **Install your database package**:
-   ```bash
-   npm install firebase  # for Firebase
-   # or
-   npm install mongodb   # for MongoDB
-   ```
+<div align="center">
+  
+**[⬆ Back to Top](#portfolio)**
 
-2. **Add environment variables** to `.env`:
-   ```env
-   VITE_FIREBASE_API_KEY=your_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_domain
-   ```
+Made with ❤️ by [Binidu01](https://github.com/Binidu01)
 
-3. **Update your API routes** - see `src/api/database-example.js` for reference
+⭐ Star this repo if you find it useful!
 
-## 🎯 Features
-
-- ⚡ Lightning-fast HMR with Vite
-- 🔌 File-based API routes (like Next.js)
-- 🗄️ Database-ready architecture
-- 🎨 Tailwind support
-- 📱 Responsive design
-
-**All API routes work in both development and production!**
-
-Built with Bini.js v7.0.6
+</div>
